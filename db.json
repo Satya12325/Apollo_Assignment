@@ -1,0 +1,43 @@
+{
+  "Cardiac": [
+    {
+      "id": "314dc7e5-8ec3-4375-bdce-b055ea098f8e",
+      "name": "Satya",
+      "age": "23",
+      "date": "2022-04-15",
+      "time": "9:00"
+    },
+    {
+      "id": "b39a71a7-ae3d-4f1d-a8ee-5a128b469942",
+      "name": "Satya",
+      "age": "23",
+      "date": "2022-04-15",
+      "time": "9:20"
+    },
+    {
+      "id": "ec8e0b66-4d8e-40a2-9e3d-c7a049964516",
+      "name": "Satyabrata",
+      "age": "23",
+      "date": "2022-04-15",
+      "time": "11:00"
+    }
+  ],
+  "Bone": [
+    {
+      "id": "561334a8-5bd3-4c7f-811c-39e8fc4c7a5e",
+      "name": "satya",
+      "age": "26",
+      "date": "2022-04-15",
+      "time": "11:00"
+    }
+  ],
+  "mediciene": [
+    {
+      "id": "e7b2bab5-1ce6-4354-a677-15a2c40efd4d",
+      "name": "Satya",
+      "age": "27",
+      "date": "2022-04-17",
+      "time": "11:20"
+    }
+  ]
+}
