@@ -164,14 +164,15 @@ await getData();
             Time :{" "}
             
             <Select
-              style={{ width: "70%", color: "black", height: "30px" }}
+              style={{ width: "70%", color: "black", height: "30px",backgroundColor:"white" }}
               labelId="demo-simple-select-filled-label"
               id="demo-simple-select-filled"
               value={slotes}
               onChange={handleChange}
+            
             >
               {R_time?.map((item) => (
-                <MenuItem key={item} value={item}>
+                <MenuItem key={item}  value={item}>
                   {item}
                 </MenuItem>
               ))}
@@ -182,31 +183,31 @@ await getData();
         </div>
           <div>
               <h3 style={{textAlign: "center",color: "white"}}>
-                  Docyor Appointment List
+                  Doctor Appointment List
               </h3>
-              <div style={{width: '70%', margin:"auto"}}>
-                  <div style={{display: "flex", justifyContent: "space-between",textAlign: "center",color:"blue"}}>
-                      <div>Sl.No</div>
-                      <div>Name</div>
-                      <div>Date</div>
-                      <div>Time</div>
+              <table style={{width: '70%', margin:"auto"}}>
+                  <tr style={{color: "white",backgroundColor: "black"}}>
+                      <th>Sl.No</th>
+                      <th>Name</th>
+                      <th>Date</th>
+                      <th>Time</th>
 
-                  </div>
+                  </tr>
                   {
                       books?.map((item,i)=>{
                           return(
-                            <div style={{display: "flex", justifyContent: "space-between",textAlign: "center"}}>
-                      <div>{i+1}</div>
-                    <div>{item.name}</div>
-                    <div>{item.date}</div>
-                    <div>{item.time}</div>
-                  </div>
+                            <tr style={{color:"white"}}>
+                      <td>{i+1}</td>
+                    <td>{item.name}</td>
+                    <td>{item.date}</td>
+                    <td>{item.time}</td>
+                  </tr>
                           )
                       })
                   }
                   
 
-              </div>
+              </table>
           </div>
       </div>
       <div>
